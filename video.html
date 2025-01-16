@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Video - EduLearn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>EduLearn</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="progress.html">My Progress</a></li>
+            <li><a href="#" class="btn-primary">Sign In</a></li>
+        </ul>
+    </nav>
+
+    <main class="video-container">
+        <div class="video-content">
+            <div class="video-player">
+                <iframe 
+                    src="https://www.youtube.com/embed/sample-video-id"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            
+            <div class="video-info">
+                <h1>Introduction to Web Development</h1>
+                <div class="video-meta">
+                    <span><i class="fas fa-clock"></i> 15:30 mins</span>
+                    <span><i class="fas fa-book"></i> Lesson 1 of 12</span>
+                </div>
+                <div class="video-description">
+                    <h2>About this lesson</h2>
+                    <p>Learn the fundamentals of web development, including HTML structure, basic CSS styling, and JavaScript fundamentals. This lesson covers the essential concepts you need to get started.</p>
+                </div>
+            </div>
+
+            <div class="video-resources">
+                <h2>Resources</h2>
+                <ul>
+                    <li><i class="fas fa-file-pdf"></i> <a href="#">Lesson Slides</a></li>
+                    <li><i class="fas fa-file-code"></i> <a href="#">Code Examples</a></li>
+                    <li><i class="fas fa-tasks"></i> <a href="#">Practice Exercises</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <aside class="course-sidebar">
+            <div class="course-progress">
+                <div class="progress-circle">
+                    <span class="progress-text">75%</span>
+                </div>
+                <p>Course Progress</p>
+            </div>
+
+            <div class="course-modules">
+                <h3>Course Content</h3>
+                <ul class="module-list">
+                    <li class="completed">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Course Introduction</span>
+                    </li>
+                    <li class="current">
+                        <i class="fas fa-play-circle"></i>
+                        <span>HTML Basics</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-circle"></i>
+                        <span>CSS Fundamentals</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-circle"></i>
+                        <span>JavaScript Essentials</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-circle"></i>
+                        <span>Building Your First Website</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="navigation-buttons">
+                <button class="btn-secondary" disabled><i class="fas fa-arrow-left"></i> Previous</button>
+                <button class="btn-primary">Next <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EduLearn. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

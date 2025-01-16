@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - EduLearn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>EduLearn</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="signin.html">Sign In</a></li>
+        </ul>
+    </nav>
+
+    <div class="search-bar">
+        <div class="search-input">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search for courses...">
+        </div>
+    </div>
+
+    <div class="courses-container">
+        <div class="filters">
+            <div class="filter-group">
+                <h3>Categories</h3>
+                <label><input type="checkbox"> Web Development</label>
+                <label><input type="checkbox"> UI/UX Design</label>
+                <label><input type="checkbox"> Data Science</label>
+                <label><input type="checkbox"> Business Analytics</label>
+                <label><input type="checkbox"> Marketing</label>
+                <label><input type="checkbox"> Mobile Development</label>
+            </div>
+            <div class="filter-group">
+                <h3>Duration</h3>
+                <label><input type="checkbox"> 0-5 hours</label>
+                <label><input type="checkbox"> 5-10 hours</label>
+                <label><input type="checkbox"> 10+ hours</label>
+            </div>
+        </div>
+
+        <div class="courses-wrapper">
+            <h2>Most Popular Certificates</h2>
+            <div class="courses-grid">
+                <!-- Networking in Google Cloud -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Networking">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://www.gstatic.com/images/branding/product/2x/google_cloud_64dp.png" alt="Google Cloud">
+                            <span>Google Cloud</span>
+                        </div>
+                        <h3>Networking in Google Cloud</h3>
+                        <div class="course-type">Specialization</div>
+                    </div>
+                </div>
+
+                <!-- Google UX Design -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="UX Design">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://www.gstatic.com/images/branding/product/2x/google_64dp.png" alt="Google">
+                            <span>Google</span>
+                        </div>
+                        <h3>Google UX Design</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google IT Automation with Python -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Python">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://www.gstatic.com/images/branding/product/2x/google_64dp.png" alt="Google">
+                            <span>Google</span>
+                        </div>
+                        <h3>Google IT Automation with Python</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Data Analytics -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Data Analytics">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://www.gstatic.com/images/branding/product/2x/google_64dp.png" alt="Google">
+                            <span>Google</span>
+                        </div>
+                        <h3>Google Data Analytics</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AWS Cloud Solutions Architect -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="AWS Cloud">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png" alt="AWS">
+                            <span>Amazon Web Services</span>
+                        </div>
+                        <h3>AWS Cloud Solutions Architect</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Microsoft Azure Fundamentals -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Azure">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg" alt="Microsoft">
+                            <span>Microsoft</span>
+                        </div>
+                        <h3>Microsoft Azure Fundamentals</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Meta Frontend Development -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Frontend">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Meta">
+                            <span>Meta</span>
+                        </div>
+                        <h3>Meta Frontend Development</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IBM Data Science -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Data Science">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://www.ibm.com/favicon.ico" alt="IBM">
+                            <span>IBM</span>
+                        </div>
+                        <h3>IBM Data Science Professional</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Salesforce Developer -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Salesforce">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://www.salesforce.com/favicon.ico" alt="Salesforce">
+                            <span>Salesforce</span>
+                        </div>
+                        <h3>Salesforce Developer Career Path</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Unity Game Development -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1556438064-2d7646166914?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Game Dev">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://unity.com/favicon.ico" alt="Unity">
+                            <span>Unity</span>
+                        </div>
+                        <h3>Unity Game Development</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Adobe Creative Suite -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Adobe">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://www.adobe.com/favicon.ico" alt="Adobe">
+                            <span>Adobe</span>
+                        </div>
+                        <h3>Adobe Creative Suite Mastery</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cybersecurity Analyst -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Cybersecurity">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://www.comptia.org/favicon.ico" alt="CompTIA">
+                            <span>CompTIA</span>
+                        </div>
+                        <h3>Cybersecurity Analyst Path</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Digital Marketing -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Marketing">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://www.hubspot.com/favicon.ico" alt="HubSpot">
+                            <span>HubSpot</span>
+                        </div>
+                        <h3>Digital Marketing Professional</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Management -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Product">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://www.atlassian.com/favicon.ico" alt="Atlassian">
+                            <span>Atlassian</span>
+                        </div>
+                        <h3>Product Management Essentials</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DevOps Engineering -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="DevOps">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://about.gitlab.com/favicon.ico" alt="GitLab">
+                            <span>GitLab</span>
+                        </div>
+                        <h3>DevOps Engineering Career Path</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blockchain Development -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Blockchain">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://ethereum.org/favicon.ico" alt="Ethereum">
+                            <span>Ethereum Foundation</span>
+                        </div>
+                        <h3>Blockchain Development</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Machine Learning Engineering -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="ML">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://www.tensorflow.org/favicon.ico" alt="TensorFlow">
+                            <span>TensorFlow</span>
+                        </div>
+                        <h3>Machine Learning Engineering</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- iOS App Development -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="iOS">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://developer.apple.com/favicon.ico" alt="Apple">
+                            <span>Apple</span>
+                        </div>
+                        <h3>iOS App Development</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Android Development -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Android">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://developer.android.com/favicon.ico" alt="Android">
+                            <span>Android</span>
+                        </div>
+                        <h3>Android App Development</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Analytics -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Data Analytics">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://www.tableau.com/favicon.ico" alt="Tableau">
+                            <span>Tableau</span>
+                        </div>
+                        <h3>Data Analytics with Tableau</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Management -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Project Management">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://www.pmi.org/favicon.ico" alt="PMI">
+                            <span>PMI</span>
+                        </div>
+                        <h3>Project Management Professional</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Business Intelligence -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="BI">
+                        <div class="new-badge">+ New AI skills</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="provider">
+                            <img src="https://powerbi.microsoft.com/favicon.ico" alt="Power BI">
+                            <span>Microsoft</span>
+                        </div>
+                        <h3>Business Intelligence with Power BI</h3>
+                        <div class="course-type">Professional Certificate</div>
+                        <div class="degree-link">
+                            <i class="fas fa-graduation-cap"></i>
+                            <a href="#">Build toward a degree</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="show-more">Show 8 more</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 EduLearn. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```

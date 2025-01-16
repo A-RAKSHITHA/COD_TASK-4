@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Progress - EduLearn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>EduLearn</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="progress.html" class="active">My Progress</a></li>
+            <li><a href="signin.html">Sign In</a></li>
+        </ul>
+    </nav>
+
+    <main class="progress-container">
+        <section class="user-overview">
+            <div class="user-header">
+                <div class="user-info">
+                    <i class="fas fa-user-circle"></i>
+                    <div class="user-details">
+                        <h2 id="user-name">Loading...</h2>
+                        <p id="user-email">Loading...</p>
+                    </div>
+                </div>
+                <div class="user-actions">
+                    <button class="btn-secondary"><i class="fas fa-cog"></i> Settings</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="progress-overview">
+            <h2>Learning Overview</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Courses in Progress</h3>
+                    <p class="stat-number">3</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Completed Courses</h3>
+                    <p class="stat-number">2</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Learning Hours</h3>
+                    <p class="stat-number">25</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="course-progress">
+            <h2>Current Courses</h2>
+            <div class="progress-cards">
+                <div class="progress-card">
+                    <div class="progress-header">
+                        <h3>Web Development Fundamentals</h3>
+                        <span class="progress-percentage">75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 75%"></div>
+                    </div>
+                    <div class="progress-details">
+                        <span><i class="fas fa-play-circle"></i> 9/12 Lessons</span>
+                        <a href="video.html" class="btn-secondary">Continue</a>
+                    </div>
+                </div>
+
+                <div class="progress-card">
+                    <div class="progress-header">
+                        <h3>UI/UX Design Masterclass</h3>
+                        <span class="progress-percentage">45%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 45%"></div>
+                    </div>
+                    <div class="progress-details">
+                        <span><i class="fas fa-play-circle"></i> 6/15 Lessons</span>
+                        <a href="video.html" class="btn-secondary">Continue</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="achievements">
+            <h2>Achievements</h2>
+            <div class="achievement-grid">
+                <div class="achievement-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Quick Starter</h3>
+                    <p>Completed first course</p>
+                </div>
+                <div class="achievement-card locked">
+                    <i class="fas fa-lock"></i>
+                    <h3>Course Master</h3>
+                    <p>Complete 5 courses</p>
+                </div>
+                <div class="achievement-card locked">
+                    <i class="fas fa-lock"></i>
+                    <h3>Dedicated Learner</h3>
+                    <p>50 learning hours</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 EduLearn. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
